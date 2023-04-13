@@ -1,12 +1,27 @@
+import json
 import osIdentify
-import urlCodeDecode
+import asciiCodeDecode
 
 
 def main():
     string = str(osIdentify.platForm())
-    print(urlCodeDecode.urlIncode(string))
-    decode = urlCodeDecode.urlDecode(urlCodeDecode.urlIncode(string))
-    print(decode)
+    encode = asciiCodeDecode.urlIncode(string)
+    print(encode)
+
+    machineInfo = [
+        {
+            "Front ID": {
+                "Basic Info": string,
+                "ASCII Encode": encode
+            },
+            "Local ID": {
+                "": ""
+            }
+        }]
+
+    with open("ID.json", "w") as infoFile:
+        jsonFile = json.dumps(machineInfo, indent=4)
+        infoFile.write(jsonFile)
 
 
 if "_main_" == "_main_":
