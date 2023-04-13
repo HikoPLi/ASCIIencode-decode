@@ -1,0 +1,19 @@
+[
+    {
+        "Computer network names": "osmkdirLeeHkoPei.local",
+        "Machine type": "arm64",
+        "Processor type": "arm",
+        "Platform type": "macOS-13.3.1-arm64-arm-64bit",
+        "Operating system": "Darwin",
+        "Operating system release": "22.4.0",
+        "Operating system version": "Darwin Kernel Version 22.4.0: Mon Mar  6 21:01:02 PST 2023; root:xnu-8796.101.5~3/RELEASE_ARM64_T8112",
+        "Number of physical cores": "8",
+        "Number of logical cores": "8",
+        "Current CPU utilization": "5.1",
+        "Current per-CPU utilization": "[6.1, 5.9, 7.9, 2.0, 1.0, 0.0, 0.0, 0.0]",
+        "Total RAM installed": "8.59 GB",
+        "Available RAM": "1.93 GB",
+        "Used RAM": "3.12 GB",
+        "RAM usage": "77.5%"
+    }
+]
