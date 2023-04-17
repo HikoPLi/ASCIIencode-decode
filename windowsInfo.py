@@ -76,3 +76,5 @@ def info():
     with open("INFO.json", "w") as infoFile:
         info = json.dumps(Info)
         infoFile.write(info, sort_keys=True, indent=4)
+        
+    return Info

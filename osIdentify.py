@@ -1,13 +1,13 @@
 import platform
 # function
 import macOSInfo
+import windowsInfo
 
 
 def platForm():
 
     if platform.system().lower() == 'Windows':
 
-        import windowsInfo
 
         str = windowsInfo.info()
 
